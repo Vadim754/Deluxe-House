@@ -1,0 +1,24 @@
+.intro
+    background: url("../../images/introBg-min.jpg") no-repeat top center / cover
+    background-color: $black
+    color: $white
+    text-align: center
+    &__title
+        padding-top: 185px
+        font-family: 'EB Garamond', sans-serif
+        font-weight: 700
+        font-size: 50px
+        line-height: 62px
+        text-transform: uppercase
+    &__subtitle
+        margin: 22px 0
+        font-size: 20px
+        line-height: 32px
+    &__btn
+        @extend %btn-ellipse
+        margin-bottom: 220px
+    &__btn:hover
+        @extend %btn-ellipse-hover
+    &__btn:active
+        @extend %btn-ellipse-active
+

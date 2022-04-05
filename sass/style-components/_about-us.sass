@@ -1,0 +1,49 @@
+.our
+    background-color: $black
+    &__title
+        text-align: center
+        color: $white
+        font-family: 'EB Garamond', sans-serif
+        font-size: 40px
+        line-height: 46px
+        text-transform: uppercase
+        margin-bottom: 55px
+    &__devider
+        border-bottom: 1px solid $gray
+        border-radius: 5px
+        position: relative
+        top: -20px
+    &__container
+        display: flex
+        justify-content: space-between
+    &__img
+        width: 620px
+        height: 570px
+        margin-right: 60px
+    &__description
+        max-width: 590px
+        margin-bottom: 33px
+        color: $white
+        font-size: 16px
+        line-height: 26px
+    &__info
+        text-transform: uppercase
+        color: $opacity-white
+        display: flex
+        .our__more
+            margin-right: 5px
+        .our__num
+            font-size: 45px
+    &__buttons
+        text-align: center
+        margin-top: 105px
+        padding-bottom: 150px   // ERROR
+    &__btn
+        @extend %btn
+        margin-right: 75px
+    &__btn:hover
+        @extend %btn-hover
+    &__btn:active
+        @extend %btn-active
+        
+

@@ -1,5 +1,6 @@
 <?php
-include('./html-components/open-base.php');
+
+include('./html-components/start.php');
 ?>
 
 <!-- CONTENT -->

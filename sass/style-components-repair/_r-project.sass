@@ -1,0 +1,22 @@
+.r-project
+    background-color: $black
+    &__title
+        @extend %title
+    &__devider
+        @extend %devider
+    &__grid-container
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        grid-template-rows: 1fr 1fr 1fr
+        grid-gap: 30px
+    &__buttons
+        text-align: center
+        margin-top: 85px
+        padding-bottom: 85px //ERROR
+    &__button
+        margin-right: 75px
+        @extend %btn
+    &__button:hover
+        @extend %btn-hover
+    &__button:active
+        @extend %btn-active

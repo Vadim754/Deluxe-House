@@ -2,7 +2,7 @@
     <div class="container">
         <div class="header__inner">
             <div class="header__logo">
-                <a href="../01_main.php" class="header__logo-link">
+                <a href="/html/01_main.php" class="header__logo-link">
                     <img src="../../images/logo-min.png" alt="logo">
                     <img src="../../images/logoText-min.png" alt="logo-text">
                 </a>
@@ -13,7 +13,7 @@
                         <a class="menu__list-link" href="#">Услуги</a>
                     </li>
                     <li class="menu__list-item">
-                        <a class="menu__list-link" href="#">Ремонт</a>
+                        <a class="menu__list-link" href="/html/02_repair.php">Ремонт</a>
                     </li>
                     <li class="menu__list-item">
                         <a class="menu__list-link" href="#">Портфолио</a>

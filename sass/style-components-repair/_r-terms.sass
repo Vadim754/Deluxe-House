@@ -1,0 +1,45 @@
+.r-terms
+    background-color: $black
+    &__title
+        padding-bottom: 60px
+        @extend %title
+    &__categories
+        padding-bottom: 16px
+        display: flex
+    &__category-btn
+        margin-right: 10px
+        font-weight: 700
+        font-size: 16px
+        @extend %btn
+        padding: 21px 122px
+        &-active
+            background-color: $white
+            color: $black
+    &__container
+        padding-bottom: 80px
+        display: flex
+    &__col
+        font-family: 'EB Garamond', sans-serif
+        font-weight: 700
+        font-size: 16px
+        background-color: $white
+        color: $black
+        width: 290px
+        text-align: center
+    &__col-title
+        padding-top: 50px 
+        line-height: 18px
+    &__col-num
+        border-bottom: 1px solid $gray6
+        border-radius: 5px
+        padding: 36px 0
+    &__buttons
+        text-align: center
+        padding-bottom: 100px
+    &__button
+        margin-right: 75px
+        @extend %btn
+    &__button:hover
+        @extend %btn-hover
+    &__button:active
+        @extend %btn-active

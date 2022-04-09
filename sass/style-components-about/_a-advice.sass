@@ -1,0 +1,29 @@
+.a-advice
+    background-color: $black
+    &__title
+        @extend %title
+    &__devider
+        @extend %devider
+    &__container
+        padding-bottom: 100px
+        display: flex
+        justify-content: space-between
+    &__item-title
+        color: $opacity-white
+        font-family: 'EB Garamond', sans-serif
+        font-weight: 700
+        font-size: 24px
+    &__hide-container
+        padding: 20px 0
+    &__hide-text
+        padding-bottom: 20px
+        color: $white
+        font-size: 16px
+        line-height: 26px
+    &__dropdown
+        transition: .3s
+        cursor: pointer
+
+         // SPECIAL CLASS FOR DROPDOWN
+.dropdown-change
+    transform: rotate(180deg)

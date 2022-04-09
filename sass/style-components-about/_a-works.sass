@@ -1,0 +1,28 @@
+.a-works
+    background-color: $black
+    &__content
+        padding: 90px 0 120px 0
+        text-align: center
+    &__text
+        padding-bottom: 20px
+        color: $white
+        font-size: 16px
+        line-height: 26px
+    &__container
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr 1fr
+        grid-template-rows: 1fr 1fr
+        grid-gap: 30px
+    &__block
+        width: 270px
+        height: 478px
+        background-color: $gray4
+    &__buttons
+        padding: 80px 0
+        text-align: center
+    &__btn
+        @extend %btn
+    &__btn:hover
+        @extend %btn-hover
+    &__btn:active
+        @extend %btn-active

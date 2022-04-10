@@ -1,0 +1,30 @@
+.form-block
+    padding-bottom: 200px
+    background-color: $black
+    &__inner
+        display: flex
+    &__content
+        width: 600px
+        text-align: center
+        padding: 0 48px
+        background-color: $opacity-white
+    &__text
+        padding: 100px 0 40px 0
+        color: $black
+        font-family: 'EB Garamond', sans-serif
+        font-weight: 700
+        font-size: 27px
+        line-height: 32px
+.form__area
+    padding: 23px 55px
+    border: none
+    border-radius: 5px
+.form__btn
+    margin: 20px 0 100px 0
+    @extend %btn-dark
+
+.form__btn:hover
+    @extend %btn-dark-hover
+
+.form__btn:active
+    @extend %btn-dark-active

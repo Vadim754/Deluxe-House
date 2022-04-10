@@ -16,16 +16,16 @@
                         <a class="menu__list-link" href="../html/02_repair.php">Ремонт</a>
                     </li>
                     <li class="menu__list-item">
-                        <a class="menu__list-link" href="#">Портфолио</a>
+                        <a class="menu__list-link" href="../html/05_portfolio-living.php">Портфолио</a>
                     </li>
                     <li class="menu__list-item">
                         <a class="menu__list-link" href="../html/04_about.php">О нас</a>
                     </li>
                     <li class="menu__list-item">
-                        <a class="menu__list-link" href="#">Статьи</a>
+                        <a class="menu__list-link" href="../../html/09_articles.php">Статьи</a>
                     </li>
                     <li class="menu__list-item">
-                        <a class="menu__list-link" href="#">Контакты</a>
+                        <a class="menu__list-link" href="../../html/11_contact.php">Контакты</a>
                     </li>
                 </ul>
             </nav>

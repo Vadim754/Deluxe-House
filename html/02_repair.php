@@ -51,7 +51,7 @@ include('./html-components/header.php')
                     ?>
                 </div>
                 <div class="r-project__buttons">
-                    <a class="r-project__button-link" href="#">
+                    <a class="r-project__button-link" href="../html/05_portfolio-living.php">
                         <button class="r-project__button" type="button">Жилые помещения</button>
                     </a>
 
@@ -134,7 +134,7 @@ include('./html-components/header.php')
                     </div>
                 </div>
                 <div class="r-terms__buttons">
-                    <a class="r-terms__button-link" href="#">
+                    <a class="r-terms__button-link" href="./04_about.php">
                         <button class="r-terms__button" type="button">О нас</button>
                     </a>
                     <a class="r-terms__button-link" href="#">

@@ -53,14 +53,15 @@ include('./html-components/header.php');
                     include('./html-components/project-card.php');
                     ?>
                 </div>
+                <div class="project__buttons">
+                    <a class="project__btn-link" href="../html/05_portfolio-living.php">
+                        <button class="project__btn" type="button">Жилые помещения</button>
+                    </a>
 
-                <a class="project__btn-link" href="#">
-                    <button class="project__btn" type="button">Жилые помещения</button>
-                </a>
-
-                <a class="project__btn-link" href="#">
-                    <button class="project__btn" type="button">Коммерческие помещения</button>
-                </a>
+                    <a class="project__btn-link" href="../html/06_portfolio-commerce.php">
+                        <button class="project__btn" type="button">Коммерческие помещения</button>
+                    </a>
+                </div>
             </div>
     </section>
 
@@ -103,8 +104,13 @@ include('./html-components/header.php');
                 </div>
 
                 <div class="our__buttons">
-                    <button class="our__btn" type="button">О нас</button>
-                    <button class="our__btn" type="button">Наши услуги</button>
+                    <a class="our__button-link" href="../html/04_about.php">
+                        <button class="our__btn" type="button">О нас</button>
+                    </a>
+                    
+                    <a class="our__button-link" href="#">
+                        <button class="our__btn" type="button">Наши услуги</button>
+                    </a>
                 </div>
             </div>
         </div>

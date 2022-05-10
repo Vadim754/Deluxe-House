@@ -10,7 +10,7 @@
                     <h4 class="contacts__title">Наш адрес</h4>
                     <p class="contacts__text">Республика Казахстан,010000, <br> г. Нур-Султан, ул. Достык 13</p>
                 </div>
-                <div class="contacts__block">
+                <div class="contacts__block contacts__block-none">
                     <h4 class="contacts__title">Присоединяйтесь</h4>
                     <img src="/" alt="">
                     <img src="/" alt="">

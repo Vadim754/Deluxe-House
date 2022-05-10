@@ -13,13 +13,13 @@
                         <a class="menu__list-link" href="#">Услуги</a>
                     </li>
                     <li class="menu__list-item">
-                        <a class="menu__list-link" href="../html/02_repair.php">Ремонт</a>
+                        <a class="menu__list-link" href="../../html/02_repair.php">Ремонт</a>
                     </li>
                     <li class="menu__list-item">
-                        <a class="menu__list-link" href="../html/05_portfolio-living.php">Портфолио</a>
+                        <a class="menu__list-link" href="../../html/05_portfolio-living.php">Портфолио</a>
                     </li>
                     <li class="menu__list-item">
-                        <a class="menu__list-link" href="../html/04_about.php">О нас</a>
+                        <a class="menu__list-link" href="../../html/04_about.php">О нас</a>
                     </li>
                     <li class="menu__list-item">
                         <a class="menu__list-link" href="../../html/09_articles.php">Статьи</a>

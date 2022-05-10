@@ -1,3 +1,30 @@
+// FUNCTIONS
+
+//  REM
+@function rem($size)
+    $result: ($size / 16) * 1rem
+    @return $result
+
+// EM
+@function em($size, $parentSize)
+    $result: ($size / $parentSize) * 1em
+    @return $result
+
+// % WIDTH
+@function prcWidth($sizeWidth, $containerSizeWidth)
+    $result: ($sizeWidth / $containerSizeWidth) * 100%
+    @return $result
+
+// % HEIGHT
+@function prcHeight($sizeHeight, $containerSizeWidth)
+    $result: ($sizeHeight / $containerSizeWidth) * 100%
+    @return $result
+
+// LINE-HEIGHT
+@function lh($size, $bodySize)
+    $result: $size / $bodySize
+    @return $result
+    
 *, *::after, *::before
     box-sizing: border-box
     margin: 0
@@ -22,7 +49,7 @@ html, body
 
 body
     font-family: 'Roboto', sans-serif
-    font-size: 14px
+    font-size: rem(14)
 
 li
     list-style: none
@@ -30,7 +57,36 @@ li
 a
     text-decoration: none
 
+img
+    max-width: 100%
+    height: auto
+
 .container
-    width: 1200px
+    max-width: rem(1200)
+    width: 100%
     padding: 0 15px
     margin: 0 auto
+
+@media screen and (max-width: $notebook)
+    .container
+        max-width: 940px
+    html
+        font-size: 12px
+
+@media screen and (max-width: $tablet)
+    .container
+        max-width: 700px
+    html
+        font-size: 16px
+
+@media screen and (max-width: $mob-large)
+    .container
+        max-width: 480px
+    html
+        font-size: 14px
+
+@media screen and (max-width: $mob-small )
+    .container
+        max-width: 300px
+    html
+        font-size: 14px

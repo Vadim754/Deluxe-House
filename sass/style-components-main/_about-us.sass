@@ -1,49 +1,60 @@
 .our
     background-color: $black
     &__title
-        text-align: center
-        color: $white
-        font-family: 'EB Garamond', sans-serif
-        font-size: 40px
-        line-height: 46px
-        text-transform: uppercase
-        margin-bottom: 55px
+        @extend %title
     &__devider
-        border-bottom: 1px solid $gray
-        border-radius: 5px
-        position: relative
-        top: -20px
+        @extend %devider
     &__container
         display: flex
         justify-content: space-between
+    &__image
+        margin-right: rem(60)
     &__img
         width: 620px
         height: 570px
-        margin-right: 60px
     &__description
         max-width: 590px
-        margin-bottom: 33px
+        margin-bottom: rem(33)
         color: $white
-        font-size: 16px
-        line-height: 26px
+        font-size: rem(16)
+        line-height: lh(26, 16)
     &__info
         text-transform: uppercase
         color: $opacity-white
         display: flex
+    &__info-block
+        padding: 0 10px
         .our__more
             margin-right: 5px
         .our__num
-            font-size: 45px
+            font-size: rem(45)
     &__buttons
-        text-align: center
-        margin-top: 105px
-        padding-bottom: 150px   // ERROR
+        justify-content: center
+        display: flex
+        margin-top: rem(105)
+        padding-bottom: rem(150)   // ERROR
+    &__button
+        margin-right: 75px
     &__btn
         @extend %btn
-        margin-right: 75px
     &__btn:hover
         @extend %btn-hover
     &__btn:active
         @extend %btn-active
-        
 
+@media screen and ( max-width: 676px )
+    .our__container
+        justify-content: center
+    .our__image
+        display: none
+
+@media screen and ( max-width: 472px )
+    .our__buttons
+        flex-direction: column
+        text-align: center
+    .our__button
+        margin-bottom: 40px
+
+@media screen and ( max-width: 330px )
+    .our__title
+        font-size: 30px

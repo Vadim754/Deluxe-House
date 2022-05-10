@@ -3,11 +3,16 @@
     background-color: $dark-gray
     color: $opacity-white
     min-height: 100px
-    line-height: 25px
+    line-height: lh(25, 14)
     &__inner
         display: flex
         justify-content: space-between
         align-items: center
-        padding: 40px 0 45px 0
+        padding: rem(40) 0 rem(45) 0
+
+@media screen and (max-width: $mob-large)
+    .footer__site
+        display: none
+    
    
     

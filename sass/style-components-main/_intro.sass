@@ -4,21 +4,26 @@
     color: $white
     text-align: center
     &__title
-        padding-top: 185px
+        padding-top: rem(185)
         font-family: 'EB Garamond', sans-serif
         font-weight: 700
-        font-size: 50px
-        line-height: 62px
+        font-size: rem(50)
+        line-height: lh(62, 50)
         text-transform: uppercase
     &__subtitle
-        margin: 22px 0
-        font-size: 20px
-        line-height: 32px
+        margin: rem(22) 0
+        font-size: rem(20)
+        line-height: lh(32, 20)
     &__btn
         @extend %btn-ellipse
-        margin-bottom: 220px
+        margin-bottom: rem(220)
     &__btn:hover
         @extend %btn-ellipse-hover
     &__btn:active
         @extend %btn-ellipse-active
 
+
+@media screen and (max-width: 350px)
+    .intro__title
+        font-size: 30px
+   

@@ -3,20 +3,30 @@
     &__inner
         display: flex
         justify-content: space-between
-        padding: 24px 0 27px 0
+        padding: rem(24) 0 rem(27) 0
         align-items: center
 
 .menu__list
     display: flex
     &-item
-        margin-right: 30px
+        margin-right: rem(30)
+        line-height: lh(30, 14)
     &-link
         color: $opacity-white
     &-link:hover
         color: $white
 .header__tel-num
     margin-left: 12px
-    font-size: 20px
+    font-size: rem(20)
     color: $opacity-white
     &:hover
         color: $white
+
+@media screen and ( max-width: $tablet )
+    .menu__list
+        flex-direction: column
+
+@media screen and ( max-width: 545px )
+    .header__tel-num
+        display: none
+

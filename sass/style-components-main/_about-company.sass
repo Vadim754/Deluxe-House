@@ -1,24 +1,35 @@
 .about
     background-color: $black
+    padding: rem(150) 0
     &__flex-container
+        padding-bottom: rem(100)
         display: flex
+        flex-wrap: wrap
         justify-content: space-between
-    &__img2
-        position: relative
-        top: -237px
-        left: 322px
-        width: 135px
-        height: 150px
-    &__img-left
-        left: 140px
+    &__images
+        margin: rem(50) 15px 0 15px
     &__title
-        margin: 100px 0 30px 0
+        margin: rem(100) 0 rem(30) 0
         color: $opacity-white
         font-family: 'EB Garamond', sans-serif
         font-weight: 700
-        font-size: 40px
-        line-height: 46px
+        font-size: rem(40)
+        line-height: lh(46, 40)
     &__text
+        max-width: 500px
         color: $gray4
-        font-size: 16px
-        line-height: 26px
+        font-size: rem(16)
+        line-height: lh(26, 16)
+
+@media screen and ( max-width: 929px )
+    .about__flex-container
+        justify-content: center
+
+@media screen and ( max-width: 544px )
+    .about__content
+        padding: 0 15px
+    
+
+@media screen and ( max-width: $mob-small )
+    .about__content
+        max-width: 240px

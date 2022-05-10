@@ -18,7 +18,7 @@ include('./html-components/header.php');
     <section class="intro">
         <div class="container">
             <div class="intro__inner">
-                <h1 class="intro__title">Роскошный дизайн <br> интерьера в Нур-Султане</h1>
+                <h1 class="intro__title">Роскошный дизайн <br> интерьера в Нур Султане</h1>
                 <p class="intro__subtitle">Мы создаем уникальные проекты любой сложности <br> на высоком уровне качества!</p>
                 <a class="intro__btn-link" href="#">
                     <button class="intro__btn" type="button">Расчет стоимости</button>
@@ -55,11 +55,11 @@ include('./html-components/header.php');
                 </div>
                 <div class="project__buttons">
                     <a class="project__btn-link" href="../html/05_portfolio-living.php">
-                        <button class="project__btn" type="button">Жилые помещения</button>
+                        <button class="project__btn project__btn1" type="button">Жилые помещения</button>
                     </a>
 
                     <a class="project__btn-link" href="../html/06_portfolio-commerce.php">
-                        <button class="project__btn" type="button">Коммерческие помещения</button>
+                        <button class="project__btn project__btn2" type="button">Коммерческие помещения</button>
                     </a>
                 </div>
             </div>
@@ -104,13 +104,17 @@ include('./html-components/header.php');
                 </div>
 
                 <div class="our__buttons">
-                    <a class="our__button-link" href="../html/04_about.php">
-                        <button class="our__btn" type="button">О нас</button>
-                    </a>
-                    
-                    <a class="our__button-link" href="#">
-                        <button class="our__btn" type="button">Наши услуги</button>
-                    </a>
+                    <div class="our__button">
+                        <a class="our__button-link" href="../html/04_about.php">
+                            <button class="our__btn" type="button">О нас</button>
+                        </a>
+                    </div>
+
+                    <div class="our__button">
+                        <a class="our__button-link" href="#">
+                            <button class="our__btn" type="button">Наши услуги</button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -139,13 +143,13 @@ include('./html-components/header.php');
                         <p class="do__card-text">Для получения наиболее оптимального результата, при этом не потеряв больших средств, мы грамотно распределяем бюджет Заказчика еще на стадии проектирования.При этом Вы не потеряете в качестве!</p>
                     </div>
 
-                    <div class="do__card">
+                    <div class="do__card do__card do__card-none-tb">
                         <img class="do__card-img" src="../images/human-icon.svg" alt="icon">
                         <h5 class="do__card-title">Контролируем и координируем</h5>
                         <p class="do__card-text">Рабочие не будут Вас донимать своими вопросами. Мы берем под свой авторский контроль работу отделочной бригады. В итоге Вы сэкономите кучу времени и получите полностью соответствующий проекту интерьер</p>
                     </div>
 
-                    <div class="do__card">
+                    <div class="do__card do__card-none-nb">
                         <img class="do__card-img" src="../images/tidy-icon.svg" alt="icon">
                         <h5 class="do__card-title">Комплектуем и декорируем</h5>
                         <p class="do__card-text">Мы отлично знаем рынок отделочных материалов, поставщиков мебели, освещения и других предметов интерьера. Мы подберем Вам все в соответствии с Вашим бюджетом!</p>
@@ -167,8 +171,7 @@ include('./html-components/header.php');
         <div class="container">
             <div class="about__flex-container">
                 <div class="about__images">
-                    <img class="about__img1" style="margin-right: 200px; margin-top: 100px" src="../images/work11-min.png" alt="image">
-                    <img class="about__img2" src="../images/work3-min.png" alt="image">
+                    <img class="about__img1" src="../images/work11-min.png" alt="image">
                 </div>
                 <div class="about__content">
                     <h3 class="about__title">Экслюзивный <br> дизайн</h3>
@@ -178,19 +181,19 @@ include('./html-components/header.php');
 
             <div class="about__flex-container">
                 <div class="about__content">
-                    <h3 class="about__title">Профессиональный <br> подход</h3>
+                    <h3 class="about__title">Профессионалы</h3>
                     <p class="about__text">В нашей команде работают дипломированные специалисты с большим опытом. Нами было реализовано большое количество объектов, поэтому для нас основной ценностью является ответственный подход к своей работе. Мы тщательно следим за тенденциями на рынке и всегда в курсе всех новинок. Своих партнеров и подрядчиков мы всегда выбираем, исходя из их опыта и качества предоставляемых ими услуг.</p>
                 </div>
                 <div class="about__images">
-                    <img class="about__img1" style="margin-left: 200px;" src="../images/work1-min.png" alt="image">
-                    <img class="about__img2  about__img-left" src="../images/work4-min.png" alt="image">
+
+                    <img class="about__img2" src="../images/work4-min.png" alt="image">
                 </div>
             </div>
 
             <div class="about__flex-container">
                 <div class="about__images">
-                    <img class="about__img1" style="margin-right: 200px;" src="../images/work7-min.png" alt="image">
-                    <img class="about__img2" src="../images/work3-min.png" alt="image">
+                    <img class="about__img1" src="../images/work7-min.png" alt="image">
+
                 </div>
                 <div class="about__content">
                     <h3 class="about__title">Внимательное <br> исполнение</h3>
@@ -204,7 +207,7 @@ include('./html-components/header.php');
                     <p class="about__text">В нашей команде работают дипломированные специалисты с большим опытом. Нами было реализовано большое количество объектов, поэтому для нас основной ценностью является ответственный подход к своей работе. Мы тщательно следим за тенденциями на рынке и всегда в курсе всех новинок. Своих партнеров и подрядчиков мы всегда выбираем, исходя из их опыта и качества предоставляемых ими услуг.</p>
                 </div>
                 <div class="about__images">
-                    <img class="about__img1" style="margin-left: 200px;" src="../images/work1-min.png" alt="image">
+
                     <img class="about__img2  about__img-left" src="../images/work4-min.png" alt="image">
                 </div>
             </div>
@@ -217,14 +220,14 @@ include('./html-components/header.php');
     <section class="info">
         <div class="container">
             <div class="info__inner">
-                <div class="info__block">
+                <div class="info__block info__block-none-nb">
                     <h4 class="info__title">И так, Вам нужен дизайн, и Вы ищете исполнителя?</h4>
                     <p class="info__text">С развитием инновационных возможностей, люди все чаще начали проявлять желание обустроить свой дом по современным канонам. Сегодня в тренде интерьеры, которые гарантируют максимальный уровень комфорта. Изучая вопрос, где заказать дизайн интерьера в Астане (Нур-Султане), советуем обратить внимание на компанию <span class="info__strong"> «DELUXE HOUSE» </span>. Наши специалисты работают над проектами любой сложности и обязуются воплотить самые смелые пожелания в жизнь.</p>
                     <h4 class="info__title">Как заказать дизайн - проект?</h4>
                     <p class="info__text">С развитием инновационных возможностей, люди все чаще начали проявлять желание обустроить свой дом по современным канонам. Сегодня в тренде интерьеры, которые гарантируют максимальный уровень комфорта. Изучая вопрос, где заказать дизайн интерьера в Астане (Нур-Султане), советуем обратить внимание на компанию <span class="info__strong"> «DELUXE HOUSE» </span>. Наши специалисты работают над проектами любой сложности и обязуются воплотить самые смелые пожелания в жизнь.</p>
                 </div>
 
-                <div class="info__block">
+                <div class="info__block  info__block-none-mob-small">
                     <h4 class="info__title">Что подразумевает создание дизайна интерьера?</h4>
                     <p class="info__text">Оформление помещения — задача не из простых, поэтому им должен заниматься профессионал. Дизайн интерьера — это целая система, которая направлена на создание комфортного пространства. Он включает: Изучение особенностей планировки помещения. Оценивание приоритетов и пожеланий клиента. Согласование главных моментов, обсуждение ключевых аспектов по планировке или перепланировки здания. Разработка идеи и концепции создания интерьера. Могут предлагаться несколько модификаций на выбор для максимального соответствия запросам. Продумывание всех этих деталей сведет к минимуму возможность какой-либо ошибки. Тогда в реальности готовый интерьер будет выглядеть точно так же, как и изображен в проекте.</p>
                     <p class="info__text">Хозяевам не придется принимать другие решения, идти на уступки. Подробная разработка всех мелочей — залог успешного воплощения интерьера. Облагораживание мебелью. Здесь может быть несколько вариантов. Они обсуждаются, и выбирается наиболее оптимальный. При желании получить неповторимый интерьер, мебель может изготавливаться под заказ. Воплощение согласованного проекта в жизнь. Только мастер может превратить все эти составляющие в единую гармоничную картину, дарящую ощущение уюта и совершенства.</p>

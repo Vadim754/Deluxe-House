@@ -12,10 +12,29 @@
     &__buttons
         text-align: center
     &__btn
-        margin: 60px 0 130px 0
+        margin: rem(60) 0 rem(130) 0
         margin-right: 30px
         @extend %btn
     &__btn:hover
         @extend %btn-hover
     &__btn:active
         @extend %btn-active
+
+@media screen and ( max-width: $notebook )
+    .project__grid-container
+        grid-template-columns: 1fr 1fr
+
+@media screen and ( max-width: 584px )
+    .project__grid-container
+        justify-content: center
+        grid-template-columns: 1fr
+    
+@media screen and ( max-width: 560px )
+    .project__btn1
+        margin-top: 70px
+        margin-bottom: 0
+    .project__btn2
+        margin-bottom: 70px
+        
+
+    

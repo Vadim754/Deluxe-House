@@ -4,17 +4,27 @@
         display: flex
         justify-content: space-between
     &__info
-        display: flex
         flex-wrap: wrap
+        display: flex
     &__block
-        margin-right: 80px
+        margin-top: rem(20)
+        margin-right: rem(80)
     &__title
-        margin-bottom: 14px
+        margin-bottom: rem(14)
         color: $white
     &__text
         font-weight: 300
-        line-height: 25px
+        line-height: lh(25, 14)
         color: $opacity-white
-        margin-bottom: 30px
+        margin-bottom: rem(30)
     &__map
         margin-bottom: 30px
+
+@media screen and (max-width: 837px)
+    .contacts__map, .contacts__block-none
+        display: none
+    .contacts__info
+        font-size: 14px
+        margin: 0 auto
+        flex-direction: column
+        justify-content: center
